@@ -42,7 +42,7 @@ body {
      text-decoration: none;
  }
  
- .links-container .navbar-link {
+ .links-container .navbar-link: {
      display: table-cell;
      position: relative;
      height: 100%;
@@ -65,6 +65,9 @@ body {
      color: rgb(233,50,117);
  }
 
+.links-container .navbar-link:active {
+    background-color: white;
+}
 .container {
     margin: 0 auto;
     max-width: 64rem;
