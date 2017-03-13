@@ -1,0 +1,37 @@
+@media only screen and (min-width: 400px) {
+    .media-container {    
+        color: red;
+    }
+  
+    .blue, .green {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 450px){
+    .media-container {    
+        color: blue;
+    }
+  
+    .green, .red {
+        display: none;
+    }
+  
+    .blue {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .media-container {    
+        color: green;
+    }
+  
+    .blue, .red {
+        display: none;
+    }
+  
+    .green {
+        display: inline;
+    }
+}
