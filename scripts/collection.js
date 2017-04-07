@@ -13,15 +13,13 @@ var collectionItemTemplate =
     + '</div>'
     + '</div>';
 window.onload = function() {
-    //The collection of albums is contained within the "album-covers" class element//
-    var collectionContainer = document.getElementsByClassName('album-covers')[0];
-    
-    //clear the contents of the HTML just in case something else has been dynamically inserted//
-    collectionContainer.innerHTML = '';
-    
-    //Insert N number of the album into the collectionContainer//
-    for (var i = 0; i < 12; i++) {
-        collectionContainer.innerHTML =+ collectionItemTemplate;
-    
-   }
-}      
+     // #1
+     var collectionContainer = document.getElementsByClassName('album-covers')[0];
+     // #2
+     collectionContainer.innerHTML = '';
+ 
+     // #3
+     for (var i = 0; i < 12; i++) {
+         collectionContainer.innerHTML += collectionItemTemplate;
+     }
+   }    
