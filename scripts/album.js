@@ -139,7 +139,6 @@ var findParentByClassName = function(element, targetClass) {
     window.onload = function() {
      setCurrentAlbum(albumPicasso);
      
- };
 
     songListContainer.addEventListener('mouseover', function(event) {
        // #1
